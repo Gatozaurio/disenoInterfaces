@@ -1,0 +1,38 @@
+
+#cuadrado0{
+    width: 100%;
+    padding: 5px;
+    height: 270px;
+    background-image: url("perro.gif");
+}
+#cuadrado1{
+    width: 50%;
+    height: 200px;
+    float: left;
+    background: rgb(256,0,0);;
+}
+#cuadrado2{
+    width: 50%;
+    height: 200px;
+    float: right;
+    background: rgba(0,255,0,0.5);
+}
+#cuadrado3{
+    width: 25%;
+    height: 200px;
+    float: left;
+    background: radial-gradient(circle,blue,red,green);
+}
+#cuadrado4{
+    width: 25%;
+    height: 200px;
+    float: right;
+    background: repeating-radial-gradient(blue,red 20%,green 20%);
+}
+#cuadrado5{
+    width: 100%;
+    height: 200px;
+    clear: both;;
+    background: purple;
+    box-shadow: 10px 10px 10px 10px blue;
+}

@@ -1,0 +1,24 @@
+#cuadrado1{
+    background-color:hsla(401, 78%, 41%, 1.0);
+    width:100px;
+    height: 100px;
+    
+}
+#cuadrado1:hover{ /* Cuando el ratón esté encima del cuadrado, cambia el color*/
+    background-color:red;
+}
+
+input:focus{ /* Cuando el cuadro está seleccionado se le añade un borde */
+    border:10px blue solid;
+}
+
+@keyframes animacion1{ 
+    from {}
+    to {transform: translateX(500px) scale(2.5);}
+}
+
+
+.check:checked{ /* Cuando se marca la casilla, esta se mueve */
+    animation-name: animacion1;
+    animation-duration: 5s;
+}

@@ -1,0 +1,9 @@
+#cuadrado1 {
+    width:200px;
+    height: 200px;
+    background-color: blue;
+}
+#cuadrado1:hover{
+    transform: translate(200px,200px);
+    transform: Scale(0.5, 0.5);
+}

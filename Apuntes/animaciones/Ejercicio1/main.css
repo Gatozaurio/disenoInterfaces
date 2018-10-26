@@ -1,0 +1,48 @@
+#cuadrado1{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    animation-name: bajar_subir;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes bajar_subir{
+    0%   {}
+    50%  {transform: translateY(100px);}
+    100% {}
+}
+
+#cuadrado2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin-top: 150px; 
+    margin-left: 50px;
+    animation-name: dar_vueltas;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes dar_vueltas{
+    0%   {}
+    100% {transform: rotateZ(180deg);}
+}
+
+#cuadrado3{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    margin-top: 100px;
+    animation-name: dar_vueltas3D;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes dar_vueltas3D{
+    0%   {}
+    100% {transform: rotateZ(180deg);}
+}
