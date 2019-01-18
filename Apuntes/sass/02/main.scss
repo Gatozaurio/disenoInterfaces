@@ -1,0 +1,22 @@
+@import 'auxiliar2';
+
+@media (min-width: $media1) {
+    body {
+        background-color: $color1;
+    }
+}
+@media (min-width: $media2) {
+    body {
+        background-color: $color2;
+    }
+}
+@media (min-width: $media3) {
+    body {
+        background-color: $color3;
+    }
+}
+@media (min-width: $media4) {
+    body {
+        background-color: $color4;
+    }
+}

@@ -1,0 +1,27 @@
+$color1: #ab0808;
+$color2: #ff6600;
+$color3: #3333ff;
+$color4: #666699;
+$color5: #006600;
+$color6: #00ff00;
+$color7: #ff9900;
+$color8: #996600;
+
+$botones:
+(peligro:($color1, $color2),
+info:($color3, $color4),
+ok:($color5, $color6),
+aviso:($color7, $color8));
+
+@mixin color-boton($colores){
+  background: $colores;
+  background: -moz-linear-gradient(top,$colores);
+  background: -webkit-linear-gradient(top, $colores);
+
+}
+
+@each $tipo, $color in $botones{
+  .boton-#{$tipo}{
+    @include color-boton($color);
+  }
+}

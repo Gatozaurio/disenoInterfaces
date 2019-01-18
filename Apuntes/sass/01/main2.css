@@ -1,0 +1,44 @@
+.body {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.header {
+  display: grid;
+  grid-column: span 8;
+  background-color: #b2333f;
+  height: 60px;
+}
+
+.main {
+  display: grid;
+  grid-column: span 8;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.cajas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.caja {
+  width: 18%;
+  background-color: #3366ff;
+  margin-bottom: 6px;
+  text-align: center;
+  color: #130564;
+  height: 110px;
+}
+
+.footer {
+  display: grid;
+  grid-column: span 8;
+  background-color: #a5e63c;
+  height: 60px;
+}
+
+/*# sourceMappingURL=main2.css.map */

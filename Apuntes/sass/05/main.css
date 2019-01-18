@@ -1,0 +1,25 @@
+.boton-peligro {
+  background: #ab0808, #ff6600;
+  background: -moz-linear-gradient(top, #ab0808, #ff6600);
+  background: -webkit-linear-gradient(top, #ab0808, #ff6600);
+}
+
+.boton-info {
+  background: #3333ff, #666699;
+  background: -moz-linear-gradient(top, #3333ff, #666699);
+  background: -webkit-linear-gradient(top, #3333ff, #666699);
+}
+
+.boton-ok {
+  background: #006600, #00ff00;
+  background: -moz-linear-gradient(top, #006600, #00ff00);
+  background: -webkit-linear-gradient(top, #006600, #00ff00);
+}
+
+.boton-aviso {
+  background: #ff9900, #996600;
+  background: -moz-linear-gradient(top, #ff9900, #996600);
+  background: -webkit-linear-gradient(top, #ff9900, #996600);
+}
+
+/*# sourceMappingURL=main.css.map */

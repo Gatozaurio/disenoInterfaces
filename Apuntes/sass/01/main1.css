@@ -1,0 +1,44 @@
+.body {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.header {
+  display: grid;
+  grid-column: span 10;
+  background-color: #72232f;
+  height: 60px;
+}
+
+.main {
+  display: grid;
+  grid-column: span 10;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.cajas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.caja {
+  width: 20%;
+  background-color: #3366ff;
+  margin-bottom: 6px;
+  text-align: center;
+  color: #645305;
+  height: 110px;
+}
+
+.footer {
+  display: grid;
+  grid-column: span 10;
+  background-color: #3ce0e6;
+  height: 60px;
+}
+
+/*# sourceMappingURL=main1.css.map */

@@ -1,0 +1,56 @@
+.body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  .header {
+    display: grid;
+    grid-column: span 12;
+    background-color: #7733ff;
+    height: 60px;
+  }
+  
+  .main {
+    display: grid;
+    grid-column: span 12;
+  }
+  
+  .titulo {
+    text-align: center;
+  }
+  
+  .cajas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* .caja1, .caja2, .caja3, .caja4, .caja5, .caja6 {
+    width: 33%;
+    background-color: #3366ff;
+    margin-bottom: 6px;
+    text-align: center;
+    color: #ccd9ff;
+    height: 110px;
+    min-width: 100px;
+    min-height: 100px;
+  }  */
+  .cajas div{
+    width: 33%;
+    height: 200px;
+  }
+  
+  .footer {
+    display: grid;
+    grid-column: span 12;
+    background-color: #4c00e6;
+    height: 60px;
+  }
+
+  $lista:(par, impar);
+
+  @each $elemento in $lista{
+      .#{$elemento}-item{
+          background: url('imagenes/#{$elemento}.jpg')no-repeat;
+      }
+  }

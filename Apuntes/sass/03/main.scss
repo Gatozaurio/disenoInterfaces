@@ -1,0 +1,9 @@
+@import 'auxiliar1';
+
+.cajas{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    @import 'caja';
+}
+

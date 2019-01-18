@@ -1,0 +1,15 @@
+.cajas {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.cajas .caja {
+  width: 200px;
+  height: 200px;
+  background-color: #3366ff;
+  text-align: center;
+  margin: 15px 15px 15px 15px;
+  border: solid black;
+}
+
+/*# sourceMappingURL=main.css.map */

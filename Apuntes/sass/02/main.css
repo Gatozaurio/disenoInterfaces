@@ -1,0 +1,22 @@
+@media (min-width: 400px) {
+  body {
+    background-color: #0039ea;
+  }
+}
+@media (min-width: 500px) {
+  body {
+    background-color: #6e00ea;
+  }
+}
+@media (min-width: 600px) {
+  body {
+    background-color: #bc00ea;
+  }
+}
+@media (min-width: 700px) {
+  body {
+    background-color: #ea005c;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

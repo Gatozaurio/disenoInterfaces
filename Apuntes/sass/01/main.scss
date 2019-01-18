@@ -1,0 +1,47 @@
+@import 'variables';
+
+.body{
+    display:grid;
+    grid-template-columns: repeat($columnas, 1fr);
+}
+
+.header{
+    display:grid;
+    grid-column: span $columnas;
+    background-color: $colorHeader;
+    height: 60px;
+}
+
+.main{
+    display:grid;
+    grid-column: span $columnas;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.#{$claseCajas}{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.#{$claseCaja}{
+    width: $anchoDiv;
+    background-color: #3366ff;
+    margin-bottom: 6px;
+    text-align: center;
+    color: $colorTexto;
+    height: 110px;
+    #{$tam}-width: 100px;
+    #{$tam}-height: 100px;
+}
+
+.footer{
+    display:grid;
+    grid-column: span $columnas;
+    background-color: $colorFooter;
+    height: 60px;
+}
+
